@@ -1,0 +1,55 @@
+p {
+    color: red;
+    text-align: center;
+}
+#para1 {
+    font-size: 40px;
+}
+
+.seleccionado {
+    color: green;
+    font-size: 30px;
+    text-align: center;
+    width: 100%;
+    opacity:0.5;
+}
+
+.titulo{
+    font-size: 100px;
+}
+
+h1, p{
+    background-color: antiquewhite;
+}
+
+div+p {
+    background-color: yellow;
+    border: 10px solid purple;
+    margin-bottom: 300px;
+}
+
+p ~ ul {
+    background-color: black;
+    color: white;
+    }
+
+/* universited link */
+a:link{
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-color: rgb(217, 42, 42);
+    text-decoration: none;
+}
+/* visited link */
+a:visited{
+    color: rgb(255, 255, 255);
+}
+/* mouse over link */
+a:hover{
+    background-color: rgb(166, 139, 161);
+    font-size: 20px;
+}
+/*selected link */
+a:active{
+    color: rgb(113, 35, 155);
+}
